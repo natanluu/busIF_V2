@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title> busIF </title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="estilos.css">
+<link rel="icon" type="imagem/png" href="favicon.ico"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<div class="body">
+	<body>
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="frota.html" class="w3-bar-item w3-button">Frota</a>
+  <a href="horarios.html" class="w3-bar-item w3-button">Horários</a>
+  <a href="valores.html" class="w3-bar-item w3-button">Valores</a>
+  <a href="trabcon.html" class="w3-bar-item w3-button">Trabalhe Conosco</a>
+  <a href="chamados.html" class="w3-bar-item w3-button">Chamados</a>
+</div>
+
+<div id="main">
+
+<div class="w3-green subir">
+  <button id="openNav" class="w3-button w3-green w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>busIF</h1>
+    <p> Sua melhor opção na hora de viajar! </p>
+  </div>
+</div>
+</div>
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+
+	<div class="opcoes">
+
+		<div class="card">
+		<div class="w3-card-4"> <!-- adicionamos classes de card nas imagens do código -->
+ 	 	<img src="frota.png" title ="Nossa Frota"/>
+		</div>
+				<div class="w3-green w3-hover-shadow w3-center"> <!-- adicionamos classes de cards em todas as fotos e links, para deixá-los separados -->
+					<a href="frota.html">Sobre a Frota</a>
+				</div>
+
+		</div>
+
+
+		<div class="card">
+		<div class="w3-card-4"> <!-- adicionamos classes de card nas imagens do código -->
+		<img src="horario.png" title ="Horários"/>
+		</div>
+				<div class="w3-green w3-hover-shadow w3-center"> <!--adicionamos classes de cards em todas as fotos e links, para deixá-los separados -->
+					<a href="horarios.html">Cidades e Horários</a>
+				</div>
+		</div>
+
+		<div class="card">
+		<div class="w3-card-4"> <!-- adicionamos classes de card nas imagens do código -->
+		<img src="passagem.png" title ="Valores"/>
+		</div>
+				<div class="w3-green w3-hover-shadow w3-center"> <!--adicionamos classes de cards em todas as fotos e links, para deixá-los separados -->
+					<a href="valores.html">Valores</a>
+				</div>
+		</div>
+
+		<div class="card">
+		<div class="w3-card-4"> <!-- adicionamos classes de card nas imagens do código -->
+		<img src="curriculo.png" title ="Trabalhe Conosco"/>
+		</div>
+				<div class="w3-green w3-hover-shadow w3-center"> <!--adicionamos classes de cards em todas as fotos e links, para deixá-los separados -->
+					<a href="trabcon.html">Trabalhe Conosco</a>
+				</div>
+		</div>
+	</div>
+
+<div class="w3-container">
+  <div class="w3-card-4 esp" style="width:50%;">
+    <header class="w3-container w3-green">
+      <h3>Sobre a Empresa</h3>
+    </header>
+
+    <div class="w3-container">
+
+			<div class="botao1">
+				<p> Criada por Sanali Rodrigues, a busIF foi fundada em 1988, com a intenção de facilitar o deslocamento das pessoas pelas capitais do Nordeste. </p>
+			</div>
+
+			<div class="botao1">
+				<p> Whatsapp: (84)99491-8759 </p>
+			</div>
+
+			<div class="botao1">
+				<p> Endereço: R. Pão de Açúcar - Neópolis, Natal - RN, 59086-380 </p>
+			</div>
+    </div>
+
+  </div>
+</div>
+	</body>
+</div>

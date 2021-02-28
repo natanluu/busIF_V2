@@ -1,0 +1,200 @@
+.body{
+	margin-top:5%;
+	margin-bottom: 5%;
+	font-family:'Roboto';
+}
+
+body{
+	background-color:#8FFF9D
+}
+
+h1{
+	text-align:center;
+	font-size: 50px;
+	font-family:'Roboto';
+}
+
+h2, h3{
+	margin-left: 10%;
+	text-align: center;
+	font-family:'Roboto';
+	color: black;
+}
+
+p{
+	text-align: justify-all;
+}
+
+td{
+	text-align: center;
+}
+
+a{
+	display: block;
+	padding: 8px;
+}
+
+li{
+	float: left;
+}
+
+.titulo{
+	text-align: center;
+	font-family:'Copperplate Gothic';
+	margin: 0px 400px 0px 400px;
+}
+.titulo1{
+	margin: 0px 0px 0px 150px;
+}
+
+.titulo1 h2{
+	text-align: left;
+}
+
+.card1{
+	margin: 100px 30px 20px 60px;
+}
+.space{
+	margin: 8px 0px 8px 0px;
+}
+.opcoes{
+
+	margin: 60px 10px 80px 320px;
+}
+
+.card{
+	float: left;
+	display: inline-block;
+	margin: 10px 5px 10px -15px;
+	padding: 10px 5px 10px 30px;
+
+}
+
+.card img {
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.botao{
+	text-align: center;
+	margin: 10% 25% 10% 20%;
+	font-family:'Copperplate Gothic';
+}
+
+
+
+.card1{
+	display: inline-grid;
+}
+
+
+
+.tabelahv table {
+	width: 900px;
+	height: 700px;
+}
+.tabelahv{
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	margin-left: 16%;
+}
+
+
+.cidades{
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+}
+
+.opcoes1{
+	margin: 20% 20% 0% 10%;
+	padding: 70px 30px 30px 30px;
+}
+
+.botao1{
+	text-align: justify-all;
+	font-family:'roboto';
+}
+
+
+a:link {
+	color: #40373B;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:visited {
+	color: #40373B;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline; 
+	cursor: pointer;
+}
+
+a:active {
+	text-decoration: underline; 
+}
+
+
+.links a{
+	color: white;
+}
+
+.links a:hover{
+	color: grey;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0% 0% 0% 0%;
+	padding: 0% 20% 0% 31%;
+	overflow: hidden;
+	background-color: #9E1B2E;
+	border: 1px solid #000000;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+	border-right: 1px solid black;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.point a:hover{
+	cursor: pointer;
+}
+
+.tit{
+	margin: 0px 0px 0px 70px;
+}
+
+.w3-card{
+	margin: 0px 100px 0px 100px;
+}
+
+.esp{
+	text-align: justify-all;
+	margin: 35px 0px 0px 325px;
+}
+
+.w3-green p{
+	text-align: center;
+}
+
+.subir{
+	margin: -70px 0px 0px 0px;
+}

@@ -1,0 +1,101 @@
+body{
+	background-color:#8FFF9D
+}
+
+.body{
+	margin-top:5%;
+	margin-bottom: 5%;
+	font-family:'Roboto';
+}
+
+.chamado{
+	margin: 0% -10% 2% 70%;
+}
+
+.chamado a:link, a:visited{
+	border: 1px solid #000000;
+	background-color: #9E1B2E;
+	padding: 14px 25px;
+	color: grey;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.chamado a:hover, a:active {
+	color: white;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.tit{
+	margin: 5% -10% 5% 17%;
+	text-shadow: 2px 2px white;
+}
+
+.titl{
+	text-align: center;
+	margin: 5% 0% 0% 33%;
+	text-shadow: 2px 2px white;
+}
+
+.campos{
+	margin: 2% 10% 10% 10%;
+}
+
+.botao{
+	margin: 0% 0% 0% 45%;
+}
+
+li{
+	float: left;
+}
+
+a{
+	display: block;
+	padding: 8px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0% 0% 0% 0%;
+	padding: 0% 20% 0% 31%;
+	overflow: hidden;
+	background-color: #9E1B2E;
+	border: 1px solid #000000;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+	border-right: 1px solid black;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover {
+	color: grey;
+	text-decoration: underline; 
+	cursor: pointer;
+}
+
+a:active {
+	text-decoration: underline; 
+}
